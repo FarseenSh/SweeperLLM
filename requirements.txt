@@ -1,0 +1,21 @@
+# MineRL — Requirements
+# Core training stack
+torch>=2.0.0
+transformers>=4.40.0
+datasets>=2.18.0
+trl>=0.8.0
+peft>=0.10.0
+
+# Efficient fine-tuning (AMD ROCm / NVIDIA)
+unsloth
+
+# Inference
+vllm>=0.4.0
+
+# Utilities
+pyyaml>=6.0
+numpy>=1.24.0
+tqdm>=4.66.0
+
+# Code quality
+ruff>=0.4.0

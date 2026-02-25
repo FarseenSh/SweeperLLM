@@ -1,0 +1,53 @@
+# Models (28GB+ each)
+your_finetuned_model/
+your_finetuned_model_v2/
+your_finetuned_model_v3/
+qwen_base/
+
+# Training checkpoints
+sft_checkpoint/
+sft_continued_checkpoint/
+sft_targeted_checkpoint/
+sft_v2_checkpoint/
+sft_v3_checkpoint/
+grpo_100/
+grpo_200/
+grpo_300/
+grpo_outputs/
+
+# Training data (1GB+)
+*.jsonl
+
+# GPU core dump (85GB)
+gpucore.*
+
+# Logs
+*_log*.txt
+*.log
+
+# LaTeX build artifacts
+*.aux
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Unsloth cache
+unsloth_compiled_cache/
+
+# Runtime I/O
+inputs/
+outputs/
+
+# Misc
+*.tar.xz
+.claude/

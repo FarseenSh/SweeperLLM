@@ -1,0 +1,7 @@
+## Minesweeper Agent Configuration ##
+# Competition requirement: max_new_tokens must be 128
+max_new_tokens: 128
+temperature: 0.0         # Greedy - no randomness
+do_sample: false         # Greedy decoding - safest for structured output
+top_p: 1.0               # No nucleus sampling
+repetition_penalty: 1.0  # No repetition penalty (output is only ~20 tokens)
